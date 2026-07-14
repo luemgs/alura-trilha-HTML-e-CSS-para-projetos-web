@@ -15,7 +15,7 @@ body {
    } 
 
 .apresentacao {
-    margin: 10%; 
+    margin: 10% 15%; 
     display:flex;
     align-items: center;
     justify-content: space-between;     
@@ -23,6 +23,9 @@ body {
 
 .apresentacao___conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao___conteudo___titulo {
@@ -62,3 +65,8 @@ body {
 .destaque-titulo {
     color: #22D4FD;
 }
+
+
+
+
+
